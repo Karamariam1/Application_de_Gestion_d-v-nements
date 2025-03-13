@@ -1,0 +1,6 @@
+com\project\event_management\repositories\EventRepository.class
+com\project\event_management\services\IEventService.class
+com\project\event_management\controllers\EventController.class
+com\project\event_management\entities\Event.class
+com\project\event_management\services\EventService.class
+com\project\event_management\EventManagementApplication.class
