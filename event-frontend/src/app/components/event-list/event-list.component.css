@@ -1,0 +1,105 @@
+/* General Styles */
+.container {
+    max-width: 900px;
+    padding: 20px;
+  }
+  
+  h2, h3 {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-weight: 700;
+    color: #ff4081;  /* Vibrant Pink */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-item {
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, #7b4eff, #ff9a8b);  /* Cool gradient background */
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .event-item:hover {
+    transform: translateY(-10px);
+    background-color: #ff61a6;  /* Lively pink when hovered */
+  }
+  
+  .event-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .event-description {
+    font-size: 1.1rem;
+  }
+  
+  .event-date {
+    font-size: 0.9rem;
+    color: #fff2e6;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    border-radius: 50%;
+    padding: 10px 15px;
+    background-color: #ff4081;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c8004d;  /* Darker pink for hover effect */
+  }
+  
+  /* Fun Input Fields */
+  .fun-input {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ff4081;
+    background-color: #fff0f5;
+    transition: all 0.3s ease;
+  }
+  
+  .fun-input:focus {
+    outline: none;
+    border-color: #ff61a6;
+    box-shadow: 0 0 10px rgba(255, 96, 165, 0.5);
+  }
+  
+  /* Add Event Button */
+  .submit-btn {
+    background-color: #ff4081;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #ff61a6;
+    transform: scale(1.05);
+  }
+  
+  /* Fun Color Scheme */
+  .fun-text {
+    color: #ff4081;  /* Bright pink for headers */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .event-item {
+      padding: 15px;
+    }
+  
+    .submit-btn {
+      font-size: 1.1rem;
+    }
+  }
+  
